@@ -1,0 +1,206 @@
+*{
+  box-sizing: content-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  [class*="col-"] 
+  {
+    float: left;
+    padding: 15px;
+background-color: #595758;
+color: aliceblue;
+border-block-start-width: 50%;
+    
+  }
+  .Contact{
+    background-color: dimgrey;
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  .boty{
+    height: 200px;
+    width: 100%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  #ex{
+    color:yellow;
+    padding-top: 150px;
+    font-size: 22px;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  .nav-link{
+    
+  }
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 29.0%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+header{ 
+background-image: url("https://pickywallpapers.com/img/2018/3/thumb/boxing-gym-computer-background-897-916-hd-wallpapers-thumb.jpg");
+height:600px;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+margin-top: 0%;
+}
+.table-danger{
+  color: black;
+}
+li{
+    display: inline-block;
+    padding-right: 50px;
+}
+#bbe{
+  height: 50px;
+}
+nav{
+  height: 60px;
+}
+[class*="btn"]
+{
+  display: inline;
+  margin-left:160px;
+}
+[class*="fa"]{
+  padding-left: 10px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-top:200px;
+  margin-left: 250px;
+}
+
+.fa:hover {
+    color:gold;
+}
+.NO:hover{
+  color:#F1D302;
+}
+.fa-facebook {
+ 
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-instagram {
+  
+  color:orange;
+}
+
+[class*="nav-link"]{
+  padding: 205px;
+}
+[class*="table-"]{
+ width: 100%;
+ padding: 30px; 
+}
+.table{
+width:100%;
+}
+.footer{
+  background-color: black;
+  margin-bottom: 0px;
+height: 200px;
+}
+.bottom{
+  display:block;
+  margin-bottom:0px;
+  padding: 0px;
+}
+.imag{
+  height: 40px;
+  width:40px;
+}
+a{
+  display:inline;
+  font-weight:bold;
+  color: aliceblue; 
+}
+.nav-link{
+  font-size: 25px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+@media screen and (max-width:480px){
+.nav-link{
+  color:whitesmoke;
+  text-align:center;
+  text-decoration:underline;
+  background-color: black;
+}
+}
+@media screen and (max-width: 480px) {
+  #ex {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}@media screen and (max-width: 480px) {
+  .fa {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .tabl {
+    font-size:19px;  
+  }
+}
+@media screen and (max-width: 480px) {
+  .boty{
+    height: 200px;  
+  }
+}
